@@ -20,9 +20,12 @@
   "homepage": "https://github.com/emukupa/unsplash-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "helmet": "^3.15.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
+    "unsplash-js": "^5.0.0"
   },
   "devDependencies": {
     "jest": "^24.1.0",

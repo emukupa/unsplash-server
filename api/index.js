@@ -1,5 +1,4 @@
+const { photos } = require('./controllers/photosController');
 module.exports = app => {
-  app.get('/', (req, res) => {
-    res.json({ msg: 'worked' });
-  });
+  app.route('/api/photos').get(photos);
 };
